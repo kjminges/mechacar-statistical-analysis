@@ -20,26 +20,26 @@ Using data from 50 mpg tests performed on MechaCar prototypes, we will be review
 ## Summary Statistics on Suspension Coil 
 Based on the design specifications for the MechaCar's suspension coils, the variance must not exceed 100 pounds per square inch. After running summary statistics for the coil tests in total, as well as broken out by each of the three manufacturing lots, the design specifications are not met for all lots. While lots 1 and 2 meet the design specifications with psi variances of 0.98 and 7.47, respectively, lot 3 does not. The psi variance of 170.29 is significantly above the maximum of 100. Despite lot 3 not meeting the manufacturing criteria, in total, the MechaCar's tests return a psi variance of 62.29. This does not exceed the maximum of 100.
 
-![total_summary](https://github.com/kjminges/MechaCar_Statistical_Analysis/tree/main/Resources/total_summary.png)
+![total_summary](https://github.com/kjminges/MechaCar_Statistical_Analysis/blob/main/Resources/total_summary.png)
 
-![lot_summary](https://github.com/kjminges/MechaCar_Statistical_Analysis/tree/main/Resources/lot_summary.png)
+![lot_summary](https://github.com/kjminges/MechaCar_Statistical_Analysis/blob/main/Resources/lot_summary.png)
 
 
 ## T-Tests on Suspension Coils
 In order to provide a more detailed summary of the psi test runs for the MechaCar prototypes in total and by lot, we have performed one sample t-tests. These tests are used to determine whether or not there is a statistical difference between the mean of the distributions used (the total test runs and the test runs for each of the three lots) and the hypothesized population mean of 1,500 pounds per square inch. The t-test results are provided below with brief summaries for each of the three cohorts. In total, the t-test shows a p-value of .06028. Although this is a low p-value, it's does not fall below the significance level that we have set at .05. Therefore, we do not have the sufficient evidence needed to reject the null hypothesis and we conclude that the two means are statistically similar. 
 
-![t-test](https://github.com/kjminges/MechaCar_Statistical_Analysis/tree/main/Resources/t-test.png)
+![t-test](https://github.com/kjminges/MechaCar_Statistical_Analysis/blob/main/Resources/t-test.png)
 
 Lot 1
-![t-test_lot1](https://github.com/kjminges/MechaCar_Statistical_Analysis/tree/main/Resources/t-test_lot1.png)
+![t-test_lot1](https://github.com/kjminges/MechaCar_Statistical_Analysis/blob/main/Resources/t-test_lot1.png)
 - For lot 1 tests, the t-test comparing the sample means to the hypothesized mean of 1,500 psi leads to a p-value of 1. This is significantly above our significance level of .05 in a one-tailed hypothesis and therefore we conclude that the two means are statistically similar.
 
 Lot 2
-![t-test_lot2](https://github.com/kjminges/MechaCar_Statistical_Analysis/tree/main/Resources/t-test_lot2.png)
+![t-test_lot2](https://github.com/kjminges/MechaCar_Statistical_Analysis/blob/main/Resources/t-test_lot2.png)
 - For lot 2 tests, the t-test comparing the sample means to the hypothesized mean of 1,500 psi leads to a p-value of 0.6072. This is comfortably above our significance level of .05 and therefore we conclude that the two means are statistically similar.
 
 Lot 3
-![t-test_lot3](https://github.com/kjminges/MechaCar_Statistical_Analysis/tree/main/Resources/t-test_lot3.png)
+![t-test_lot3](https://github.com/kjminges/MechaCar_Statistical_Analysis/blob/main/Resources/t-test_lot3.png)
 - For lot 3 tests, the t-test comparing the sample means to the hypothesized mean of 1,500 psi leads to a p-value of 0.04168. This is below our significance level of .05. Therefore we have enough evidence to reject the null hypothesis and conclude that the two means are NOT statistically similar.
 
 
