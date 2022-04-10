@@ -31,16 +31,21 @@ In order to provide a more detailed summary of the psi test runs for the MechaCa
 ![t-test](https://github.com/kjminges/MechaCar_Statistical_Analysis/blob/main/Resources/t-test.png)
 
 Lot 1
+
 ![t-test_lot1](https://github.com/kjminges/MechaCar_Statistical_Analysis/blob/main/Resources/t-test_lot1.png)
 - For lot 1 tests, the t-test comparing the sample means to the hypothesized mean of 1,500 psi leads to a p-value of 1. This is significantly above our significance level of .05 in a one-tailed hypothesis and therefore we conclude that the two means are statistically similar.
 
+
 Lot 2
+
 ![t-test_lot2](https://github.com/kjminges/MechaCar_Statistical_Analysis/blob/main/Resources/t-test_lot2.png)
 - For lot 2 tests, the t-test comparing the sample means to the hypothesized mean of 1,500 psi leads to a p-value of 0.6072. This is comfortably above our significance level of .05 and therefore we conclude that the two means are statistically similar.
 
 Lot 3
+
 ![t-test_lot3](https://github.com/kjminges/MechaCar_Statistical_Analysis/blob/main/Resources/t-test_lot3.png)
 - For lot 3 tests, the t-test comparing the sample means to the hypothesized mean of 1,500 psi leads to a p-value of 0.04168. This is below our significance level of .05. Therefore we have enough evidence to reject the null hypothesis and conclude that the two means are NOT statistically similar.
+
 
 
 ## Study Design: MechaCar vs Competition
