@@ -14,7 +14,7 @@ Using data from 50 mpg tests performed on MechaCar prototypes, we will be review
 	- Given the p-value discussed above and the fact that the r-squared value is .7149, we believe the model does an effective job in predicting the mpg of the MechaCar prototypes based on the variables provided. The r-squared measurement from the linear model describes what percentage of the variability of the mpg variable can be explained using the linear model. The model being able to explain over 70% of the variability in the mpg data is consistent with what we typically see with successful linear models.
 	- While the p-value of the current model is significant, there are changes that can be made to better fit the model and avoid over-fitting. It would be advantageous to remove the variables that do not have predictive significance for mpg. Based on the results of the linear model, we should try removing AWD and spoiler angle.
 
-![linear_regression_model](https://github.com/kjminges/MechaCar_Statistical_Analysis/tree/main/Resources/linear_regression_model.png)
+![linear_regression_model](https://github.com/kjminges/MechaCar_Statistical_Analysis/blob/main/Resources/linear_regression_model.png)
 
 
 ## Summary Statistics on Suspension Coil 
